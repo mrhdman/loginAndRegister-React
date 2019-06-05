@@ -5,11 +5,10 @@ const Landing = () => {
   return (
     <section className='landing'>
       <h1>LANDING PAGE</h1>
-      <p>Create an account.</p>
-      <div>
-        <Link to='/register'>Sign Up</Link>
+      <div className='signUpLogInBox'>
+        <Link to='/register'>New User? REGISTER</Link>
         <div />
-        <Link to='/login'>Login</Link>
+        <Link to='/login'>Already have an account? LOGIN</Link>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
 {
-  "mongoURI": "CHANGE THIS",
+  "mongoURI": "mongodb+srv://coffee123:coffee123@loginregister-pprxs.mongodb.net/test?retryWrites=true&w=majority",
   "jwtSecret": "mysecrettoken"
 }
