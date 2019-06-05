@@ -21,7 +21,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
   const onSubmit = async e => {
     e.preventDefault();
     if (password !== password2) {
-      setAlert('Passwords do not match', 'danger');
+      setAlert('Passwords do not match');
     } else {
       register({ name, email, password });
     }
@@ -35,7 +35,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     <Fragment>
       <h1>Sign Up</h1>
       <p>Create Your Account</p>
-      <p>If you want a profile image, use a Gravatar email.</p>
       <form className='form' onSubmit={e => onSubmit(e)}>
         <div className='form-group'>
           <input

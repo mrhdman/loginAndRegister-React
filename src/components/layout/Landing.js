@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 const Landing = () => {
   return (
     <section className='landing'>
-      <h1>-------</h1>
+      <h1>LANDING PAGE</h1>
       <p>Create an account.</p>
-      <div className='buttons'>
+      <div>
         <Link to='/register'>Sign Up</Link>
+        <div />
         <Link to='/login'>Login</Link>
       </div>
     </section>
